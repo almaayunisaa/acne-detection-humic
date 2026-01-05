@@ -1,13 +1,6 @@
 # Flask AI Application
 Main entry point: deploy.py
 
-## Folder Structure
-.
-├── flask/
-│   ├── deploy.py
-│   ├── requirements.txt
-└── README.md
-
 ## Requirements
 - Python 3.8 or higher
 - pip
@@ -28,12 +21,12 @@ Linux / Mac:
 source venv/bin/activate
 
 Install dependencies:
-pip install -r requirements.txt
+pip install -r flask/requirements.txt
 
 ## Run Application
 
 From project root:
-python deploy.py
+python flask/deploy.py
 
 Default URL:
 http://127.0.0.1:5000
